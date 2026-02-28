@@ -1,36 +1,36 @@
-# 索引_[主题名]
+# Index: [Topic Name]
 
-> **类型**：Hub 索引  
-> **更新**：YYYY-MM-DD
+> **Type**: Hub Index  
+> **Updated**: YYYY-MM-DD
 
 ---
 
-## 关键词入口 (Keywords)
+## Keywords
 
-### [关键词1]
-- [[笔记A]] — 核心定义
-- [[笔记B]] — 应用案例
+### [Keyword 1]
+- [[Note A]] — Core definition
+- [[Note B]] — Application case
 
-### [关键词2]
-- [[笔记C]] — 机制解析
+### [Keyword 2]
+- [[Note C]] — Mechanism analysis
 
-### [关键词3]
+### [Keyword 3]
 ...
 
 ---
 
-## 主题结构 (Theme Structure)
+## Theme Structure
 
-> 按书籍的核心论证结构组织
+> Organized by the book's core argument structure
 
-### 论证一：[命题名]
-→ 入口：[[结构笔记]] Sequence A
+### Argument 1: [Proposition Name]
+→ Entry: [[Structure Note]] Sequence A
 
-### 论证二：[命题名]
-→ 入口：[[结构笔记]] Sequence B
+### Argument 2: [Proposition Name]
+→ Entry: [[Structure Note]] Sequence B
 
 ---
 
-## 相关结构笔记
+## Related Structure Notes
 
-- [[书名_结构笔记]]
+- [[BookTitle_Structure_Note]]

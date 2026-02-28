@@ -14,7 +14,7 @@ Use this skill when:
 
 | Phase   | Output                    | Key artifact                          |
 |---------|---------------------------|----------------------------------------|
-| 0       | Pre-game plan             | `YYYYMMDD_01_[title]_执行计划.md`     |
+| 0       | Pre-game plan             | `YYYYMMDD_01_[title]_execution_plan.md` |
 | 1       | Structure note            | `templates/structure_note_template.md`|
 | 2       | Index note                | `templates/index_note_template.md`   |
 | 2.5     | Index onboarding          | Mount to existing index; move to index dir |
@@ -38,9 +38,8 @@ Use this skill when:
 
 ## Requirements
 
-- **Paths**: The skill assumes an **index directory** (e.g. `03_索引/` or `Index/`) and a **daily/task directory** (e.g. `05_每日记录/YYYY/MM/DD` or `Daily/`). Adapt path names in the skill or your vault to match.
+- **Paths**: The skill assumes an **index directory** (e.g. `Index/`) and a **daily/task directory** (e.g. `Daily/YYYY/MM/DD`). Adapt path names in the skill or your vault to match.
 - **Optional companion skills**: For full automation, `structure-note`, `index-note`, `file-organize`, and `workflow-audit` can be used when available; the skill still works with manual steps if they are missing.
-- **Language**: SKILL.md and templates are in Chinese; prompts and outputs follow your locale.
 
 ## Install (skills.sh)
 

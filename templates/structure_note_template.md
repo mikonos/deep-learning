@@ -1,102 +1,100 @@
 ---
 type: Structure_Note
 tags:
-  - [领域1]
-  - [领域2]
+  - [domain1]
+  - [domain2]
 links:
-  - [[相关索引]]
+  - [[Related Index]]
 ---
 
-# [书名/文章名]结构笔记
+# [Book/Article Title] Structure Note
 
-> **所属索引**：[[索引_XXX]]  
-> **更新**：YYYY-MM-DD
+> **Parent Index**: [[Index_XXX]]  
+> **Updated**: YYYY-MM-DD
 >
-> **当时语境**：YYYY年M月，因 [目标] 需要，整理《[标题]》的核心论证结构。
-> **默认读者**：半年后的昀峤——本结构自包含，不依赖记忆。
+> **Context**: In YYYY-MM, due to [goal], organized the core argument structure of *[Title]*.
+> **Default Reader**: Future self, six months from now — this structure is self-contained and memory-independent.
 
 ---
 
 ## 📋 Overview (5 Questions)
-> 建立全局认知地图，防止陷入细节。
+> Establish a global cognitive map; prevent getting lost in details.
 
-1.  **它解决什么问题？** (痛点/场景): 
-2.  **核心机制是什么？** (第一性原理): 
-3.  **关键概念 (3-5个)**: 
-4.  **与已知方法的对比**: 
-5.  **一句话总结 (费曼测试)**: 
-
----
-
-## 核心命题 (Core Propositions)
-
-> Mortimer Adler: "一本好书应该能被浓缩为几个核心命题。"
-
-1.  **命题一**：[概括]
-2.  **命题二**：[概括]
-3.  **命题三**：[概括]
+1.  **What problem does it solve?** (Pain point / Scenario): 
+2.  **What is the core mechanism?** (First principles): 
+3.  **Key concepts (3–5)**: 
+4.  **Comparison with known methods**: 
+5.  **One-sentence summary (Feynman test)**: 
 
 ---
 
-## 逻辑树 (Logic Tree)
+## Core Propositions
+
+> Mortimer Adler: "A good book should be reducible to a few core propositions."
+
+1.  **Proposition 1**: [Summary]
+2.  **Proposition 2**: [Summary]
+3.  **Proposition 3**: [Summary]
+
+---
+
+## Logic Tree
 
 <!--
-> **Luhmann Scan 指引**：
-> *   理论/概念 → 创建 **Atomic Note** ([[概念名]])
-> *   工具/SOP → 创建 **Method Note** ([[方法名]])
+> **Luhmann Scan Guide**:
+> *   Theory / Concept → create **Atomic Note** ([[ConceptName]])
+> *   Tool / SOP → create **Method Note** ([[MethodName]])
 -->
 
-```
-命题一（前提）
-├─ [[概念笔记A]] — 证据/机制
-└─ [[方法笔记B]] — 落地工具/SOP
+Proposition 1 (Premise)
+├─ [[Atomic Note A]] — Evidence / Mechanism
+└─ [[Method Note B]] — Actionable Tool / SOP
 
-命题二（核心论证）
-├─ [[概念笔记C]] — 核心模型
-└─ [[概念笔记D]] — 反驳/限定
+Proposition 2 (Core Argument)
+├─ [[Atomic Note C]] — Core Model
+└─ [[Atomic Note D]] — Rebuttal / Qualification
 
-命题三（结论/应用）
-├─ [[方法笔记E]] — 解决方案
-└─ [[方法笔记F]] — 实践指南
-```
+Proposition 3 (Conclusion / Application)
+├─ [[Method Note E]] — Solution
+└─ [[Method Note F]] — Practice Guide
 
 ---
 
-## 阅读顺序 (Reading Sequence)
+## Reading Sequence
 
-> 每个顺序都有「理由」：半年后读到这里，仍能理解为什么下一步是它。
+> Each step includes a "reason": six months from now, you'll still understand why the next step follows.
 
-### Sequence A: [主题名]
-1.  **[[笔记A]]** (Premise)
-    > 理由：建立基础概念...
-2.  **[[笔记B]]** (Argument)
-    > 理由：核心机制解析...
+### Sequence A: [Topic Name]
+1.  **[[Note A]]** (Premise)
+    > Reason: Establishes foundational concepts...
+2.  **[[Note B]]** (Argument)
+    > Reason: Unpacks the core mechanism...
 
-### Sequence B: [主题名]
+### Sequence B: [Topic Name]
 ...
 
 ---
 
-## 缺口分析 (Gap Analysis)
+## Gap Analysis
 
-> 论证链中是否有跳跃？
+> Are there any leaps in the argument chain?
 
--   [ ] Sequence A → B 之间缺少 [[潜在笔记X]]
--   [ ] [其他发现]
-
----
-
-## 🏛️ 专家圆桌 (Expert Debate)
-> **L3 深度辩论**：模拟 Musk (物理视角), Socrates (诘问), Munger (逆向), Feynman (解释) 对本书核心观点的辩论。
-
-*   **Musk**: [从第一性原理/物理约束角度质疑]
-*   **Socrates**: [对核心概念定义的诘问]
-*   **Munger**: [反过来想，有什么潜在风险/反效应？]
-*   **Feynman**: [能否用更简单的比喻解释 X？]
-*   **Author (Proxy)**: [回应]
-
-> **结论/重构**：[辩论后的共识或存疑点]
+-   [ ] Between Sequence A → B, missing [[Potential Note X]]
+-   [ ] [Other findings]
 
 ---
 
-相关索引：[[索引_XXX]]
+## 🏛️ Expert Debate
+> **L3 Deep Debate**: Simulate a debate among Musk (physics lens), Socrates (definitional probing), Munger (inversion), and Feynman (explanation) on the book's core claims.
+
+*   **Musk**: [Challenge from first principles / physical constraints]
+*   **Socrates**: [Probing the definitions of core concepts]
+*   **Munger**: [Invert — what are the hidden risks / adverse effects?]
+*   **Feynman**: [Can X be explained with a simpler metaphor?]
+*   **Author (Proxy)**: [Response]
+
+> **Conclusion / Reframe**: [Post-debate consensus or open questions]
+
+---
+
+Related Index: [[Index_XXX]]

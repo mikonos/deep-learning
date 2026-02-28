@@ -1,63 +1,63 @@
-# 发布到 GitHub 和 skills.sh
+# Publishing to GitHub and skills.sh
 
-## 一、发布到 GitHub
+## Step 1: Publish to GitHub
 
-1. **在 GitHub 新建仓库**
-   - 登录 GitHub → New repository
-   - 仓库名建议：`deep-learning` 或 `skill-deep-learning`
-   - 选 Public；可选 “Add a README” 若你希望 GitHub 自动生成（会与本地 README 冲突，建议不勾选，用本地已有文件）
-   - 创建后记下仓库地址，如：`https://github.com/<你的用户名>/deep-learning.git`
+1. **Create a new repository on GitHub**
+   - Log in to GitHub → New repository
+   - Suggested repo name: `deep-learning` or `skill-deep-learning`
+   - Set to Public; optionally check "Add a README" (though it may conflict with the local README — recommended to skip and use the existing local file)
+   - After creation, note the repo URL, e.g.: `https://github.com/<your-username>/deep-learning.git`
 
-2. **在本目录初始化 Git 并推送**（在 `open-source/deep-learning` 下执行）：
+2. **Initialize Git and push** (run in the `open-source/deep-learning` directory):
 
    ```bash
-   cd "/path/to/00_收件箱_工作区 (Workspace)/projects/open-source/deep-learning"
+   cd "/path/to/open-source/deep-learning"
 
    git init
    git add .
    git commit -m "Initial release: deep-learning skill for Zettelkasten"
    git branch -M main
-   git remote add origin https://github.com/<你的用户名>/deep-learning.git
+   git remote add origin https://github.com/<your-username>/deep-learning.git
    git push -u origin main
    ```
 
-3. **完善仓库信息**
-   - 在 GitHub 仓库页 → About → 编辑：
-     - **Description**：`Deep reading skill for Zettelkasten: structure + atomic + method + index notes (Adler, Feynman, Luhmann). Cursor / skills.sh`
-     - **Topics**：`zettelkasten`, `deep-reading`, `cursor`, `skills`, `knowledge-management`
+3. **Complete repository metadata**
+   - On the GitHub repo page → About → Edit:
+     - **Description**: `Deep reading skill for Zettelkasten: structure + atomic + method + index notes (Adler, Feynman, Luhmann). Cursor / skills.sh`
+     - **Topics**: `zettelkasten`, `deep-reading`, `cursor`, `skills`, `knowledge-management`
 
 ---
 
-## 二、发布到 skills.sh
+## Step 2: Publish to skills.sh
 
-1. **安装方式**  
-   skills.sh 通过 GitHub 仓库安装，用户执行：
+1. **Installation command**  
+   skills.sh installs from GitHub repositories. Users run:
    ```bash
-   npx skills add <你的用户名>/deep-learning
+   npx skills add <your-username>/deep-learning
    ```
-   例如你的 GitHub 用户名为 `mikonos`，则：
+   For example, if your GitHub username is `mikonos`:
    ```bash
    npx skills add mikonos/deep-learning
    ```
 
-2. **让 skill 出现在 skills.sh 目录**
-   - 打开 [skills.sh](https://skills.sh)
-   - 若平台有 “Submit skill” / “Add skill” 等入口，填写你的仓库地址（如 `mikonos/deep-learning`）并提交
-   - 若暂无提交入口，将仓库设为 Public 并打上 topics，有时会被自动抓取或之后被收录
+2. **Get listed on the skills.sh directory**
+   - Go to [skills.sh](https://skills.sh)
+   - If the platform has a "Submit skill" / "Add skill" entry, submit your repo URL (e.g. `mikonos/deep-learning`)
+   - If no submission form exists, keep the repo Public with proper topics — it may be automatically indexed or manually curated later
 
-3. **无需构建**  
-   平台直接读取 GitHub 仓库中的 `SKILL.md` 和 README，无需额外构建步骤。
+3. **No build step required**  
+   The platform reads `SKILL.md` and README directly from your GitHub repository.
 
 ---
 
-## 三、之后更新
+## Step 3: Future Updates
 
-修改本目录文件后，在 `deep-learning` 目录下：
+After modifying files in this directory, run in the `deep-learning` folder:
 
 ```bash
 git add .
-git commit -m "描述本次修改"
+git commit -m "Describe your changes"
 git push
 ```
 
-GitHub 更新后，skills.sh 会按平台策略拉取最新版本；用户重装或更新即可获得新内容。
+Once GitHub is updated, skills.sh will pull the latest version per its platform policy; users can reinstall or update to get the new content.

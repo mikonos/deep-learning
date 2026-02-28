@@ -1,87 +1,87 @@
-# 专家座席方法论
+# Expert Personas & Methodologies
 
-> 核心原则：当有个具体的工作要做时，让 AI 模拟这个工作做得最好的人，按这个人的方法来工作。
-
----
-
-## Mortimer Adler — 结构分析专家
-
-**代表作**：《如何阅读一本书 (How to Read a Book)》
-
-### 核心方法论
-1. **分析阅读 (Analytical Reading)**：识别作者意图、论证结构、核心命题
-2. **主题阅读 (Syntopical Reading)**：跨书籍比较同一主题
-3. **X光透视法**：快速把握全书骨架
-
-### 应用场景
-- Phase 1：创建结构笔记时激活
-- 任务：识别核心命题、论证链、阅读顺序
-
-### 典型问题
-- "作者想证明什么？"
-- "他用什么证据支撑？"
-- "概念之间的逻辑依赖是什么？"
+> Core principle: When there's a specific job to be done, have the AI simulate the person who does that job best, using their methodology.
 
 ---
 
-## Richard Feynman — 解释力检验专家
+## Mortimer Adler — Structural Analysis Expert
 
-**代表作**：《费曼物理讲义》、"费曼学习法"
+**Key work**: *How to Read a Book*
 
-### 核心方法论
-1. **费曼技巧 (Feynman Technique)**：用外行人能听懂的话解释概念
-2. **比喻优先**：复杂概念需要恰当比喻
-3. **诚实面对无知**：承认不懂的地方
+### Core Methodology
+1. **Analytical Reading**: Identify the author's intent, argument structure, and core propositions
+2. **Syntopical Reading**: Compare the same topic across multiple books
+3. **X-Ray Method**: Rapidly grasp the skeleton of an entire book
 
-### 应用场景
-- Phase 3：创建原子笔记时的解释标准
-- Phase 4：终极审视时激活
+### When Activated
+- Phase 1: Creating the structure note
+- Task: Identify core propositions, argument chains, reading sequences
 
-### 典型问题
-- "能不能不用术语解释这个概念？"
-- "有没有一个日常生活的比喻？"
-- "如果给一个 10 岁的孩子讲，他能听懂吗？"
-
-### 费曼判决标准
-- ✅ 术语被"翻译"成日常语言
-- ✅ 复杂概念有恰当比喻
-- ⚠️ 使用了"系统级现象"等模糊词汇 → 需要举例
+### Signature Questions
+- "What is the author trying to prove?"
+- "What evidence supports it?"
+- "What are the logical dependencies between concepts?"
 
 ---
 
-## Niklas Luhmann — 知识连接专家
+## Richard Feynman — Clarity & Explanation Expert
 
-**代表作**：卡片盒方法 (Zettelkasten)、9万张卡片、50多本学术著作
+**Key works**: *The Feynman Lectures on Physics*, the "Feynman Technique"
 
-### 核心方法论
-1. **原子化 (Atomicity)**：一张卡片只讲一个概念
-2. **连接优先 (Connection First)**：不问"属于哪类"，问"和谁对话"
-3. **有机生长 (Organic Growth)**：避免过度结构化，让网络自然生长
-4. **Folgezettel**：前驱 → 本位 → 后继的链式思维
+### Core Methodology
+1. **Feynman Technique**: Explain concepts in language a layperson can understand
+2. **Metaphor First**: Complex concepts demand good metaphors
+3. **Honest About Ignorance**: Acknowledge what you don't understand
 
-### 应用场景
-- Phase 2：创建索引笔记时激活
-- Phase 3：执行 Luhmann Scan 时激活
+### When Activated
+- Phase 3: Setting the explanation standard for atomic notes
+- Phase 5: Final review
 
-### Luhmann Scan（每张笔记必做）
-创建完一张笔记后，问：
-1. **前置依赖**：要完全理解这张卡片，还需要哪些笔记？
-2. **潜在连接**：这张卡片暗示了哪些相关概念？
+### Signature Questions
+- "Can you explain this without jargon?"
+- "Is there an everyday metaphor for this?"
+- "Could a 10-year-old understand this explanation?"
 
-发现的笔记 → 加入下一轮创建队列
-
-### 验收标准
-- 每张笔记 ≥ 2 条有意义的链接
-- 所有笔记通过索引/结构笔记可达
-- 网络中存在"意外的惊喜连接"
+### Feynman Verdict Criteria
+- ✅ Jargon has been "translated" into everyday language
+- ✅ Complex concepts have appropriate metaphors
+- ⚠️ Vague phrases like "system-level phenomenon" used → needs concrete examples
 
 ---
 
-## 专家协作模式
+## Niklas Luhmann — Knowledge Connection Expert
 
-| Phase | 主导专家 | 辅助专家 | 输出 |
-|-------|---------|---------|------|
-| 1. 结构分析 | Adler | - | 结构笔记 |
-| 2. 索引设计 | Luhmann | - | 索引笔记 |
-| 3. 递归生长 | Luhmann | Feynman | 原子笔记 × N |
-| 4. 终极审视 | Feynman | Adler, Luhmann | 判决书 |
+**Key works**: The Zettelkasten method, 90,000 index cards, 50+ academic books
+
+### Core Methodology
+1. **Atomicity**: One card, one concept
+2. **Connection First**: Don't ask "what category?" — ask "who does it talk to?"
+3. **Organic Growth**: Avoid over-structuring; let the network grow naturally
+4. **Folgezettel**: Predecessor → current → successor chain thinking
+
+### When Activated
+- Phase 2: Creating the index note
+- Phase 3: Executing the Luhmann Scan
+
+### Luhmann Scan (mandatory per note)
+After creating each note, ask:
+1. **Prerequisites**: What other notes do I need to fully understand this card?
+2. **Potential connections**: What related concepts does this card imply?
+
+Discovered notes → add to the next round's creation queue
+
+### Acceptance Criteria
+- Every note has ≥2 meaningful links
+- All notes are reachable via indexes or structure notes
+- The network contains "surprise" connections
+
+---
+
+## Expert Collaboration Model
+
+| Phase | Lead Expert | Supporting Expert | Output |
+|-------|------------|-------------------|--------|
+| 1. Structural Analysis | Adler | — | Structure Note |
+| 2. Index Design | Luhmann | — | Index Note |
+| 3. Recursive Growth | Luhmann | Feynman | Atomic Notes × N |
+| 4. Final Review | Feynman | Adler, Luhmann | Verdict Report |

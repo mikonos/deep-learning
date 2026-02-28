@@ -1,28 +1,28 @@
 ---
 type: Atomic_Note
 tags:
-  - [领域1]
-  - [领域2]
+  - [domain1]
+  - [domain2]
 links:
-  - [[相关笔记A]]
-  - [[相关笔记B]]
-  - [[潜在笔记C]] <!-- Round 2/3 Candidate -->
+  - [[Related Note A]]
+  - [[Related Note B]]
+  - [[Potential Note C]] <!-- Round 2/3 Candidate -->
 ---
 
-# [概念名称]
+# [Concept Name]
 
-## 核心概念
-**[概念名称]** 是 [一句话定义]。
-*   比如：[具体例子]
+## Core Concept
+**[Concept Name]** is [one-sentence definition].
+*   For example: [concrete example]
 
-## 机制解析
-*   **[要点1]**：[解释]
-*   **[要点2]**：[解释]
-*   **[要点3]**：[解释]
+## Mechanism
+*   **[Point 1]**: [Explanation]
+*   **[Point 2]**: [Explanation]
+*   **[Point 3]**: [Explanation]
 
-## 卢曼视角 (Zettelkasten Note)
-这是 [[相关笔记A]] 的 [上游前提/下游应用/平行对照]。
-[解释为什么它与其他笔记相连、在知识网络中的位置]
+## Zettelkasten Context
+This is an [upstream prerequisite / downstream application / parallel comparison] of [[Related Note A]].
+[Explain why it connects to other notes and its position in the knowledge network]
 
-> [!NOTE] 延伸思考
-> [可选：未来可探索的方向]
+> [!NOTE] Further Exploration
+> [Optional: future directions to investigate]

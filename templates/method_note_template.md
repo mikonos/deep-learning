@@ -1,85 +1,116 @@
 ---
 type: Method_Note
 tags:
-  - [领域1]
-  - [领域2]
+  - [domain1]
+  - [domain2]
 links:
-  - [[相关结构笔记]]
-  - [[相关概念笔记]]
+  - [[Related Structure Note]]
+  - [[Related Concept Note]]
 ---
 
-# [方法/工具名称]
+# [Method / Tool Name]
 
-## 🆔 唯一标识符
-ID: [[YYYYMMDD_HH_方法名称]]
+## 🆔 Identifier
+ID: [[YYYYMMDD_HH_MethodName]]
 Status: SEED / DRAFT / EVERGREEN
 
-## 🎯 目的与价值 (Purpose)
-> 为什么需要这个工具？解决什么具体问题？
+## 🎯 Purpose & Value
+> Why is this tool needed? What specific problem does it solve?
 
-*   **解决痛点**：[描述]
-*   **适用场景**：[描述]
-*   **预期产出**：[描述]
+*   **Pain point**: [Description]
+*   **Use case**: [Description]
+*   **Expected output**: [Description]
 
-## ⚙️ 前置条件 (Prerequisites)
-> 在开始之前，必须具备什么？
+## ⚙️ Prerequisites
+> What must be in place before starting?
 
-*   [ ] **输入信息**：[比如：用户画像、原始数据...]
-*   [ ] **资源/工具**：[比如：Excel、会议室...]
-*   [ ] **人员/权限**：[比如：决策人参与...]
+*   [ ] **Input data**: [e.g. user profiles, raw data...]
+*   [ ] **Resources / Tools**: [e.g. spreadsheet, meeting room...]
+*   [ ] **People / Permissions**: [e.g. decision-maker present...]
 
-## 📝 可执行步骤 (Actionable Steps)
-> ❌ 禁止使用 "适当优化"、"加强管理" 等模糊词。
-> ✅ 必须转化为 "第一步做A，第二步做B" 的具体动作。
+## 🎬 Pre-flight Checklist
+> Things to confirm before execution begins
 
-### Step 1: [步骤名称]
-*   **动作**：[具体指令]
-*   **关键点**：[注意什么]
+*   [ ] **Environment**: [e.g. quiet space / sufficient time blocked / stakeholders notified]
+*   [ ] **Materials**: [e.g. required data ready / templates prepared / tools configured]
+*   [ ] **Mindset / Role**: [e.g. clear on your role and boundaries in this process]
 
-### Step 2: [步骤名称]
-*   **动作**：
-*   **关键点**：
+## 📝 Actionable Steps
+> ❌ No vague verbs allowed; ✅ Each step uses a table: What / How / Why
 
-### Step 3: [步骤名称]
-*   **动作**：
-*   **关键点**：
+### Step 1: [Step Name]
 
-## 🛠️ 交付模板 (Template)
-> [在此处提供可直接复制使用的 表格 / 清单 / 提示词 / 代码块]
+| Step | What | How | Why |
+|------|------|-----|-----|
+| 1    | [Action item] | [Specific operation / script / prompt] | [Purpose / Mechanism] |
+| 2    | [Action item] | [Specific operation / script / prompt] | [Purpose / Mechanism] |
+
+**Common Issues**:
+*   [Problem] → [Immediate fix]
+*   [Problem] → [Immediate fix]
+
+### Step 2: [Step Name]
+
+| Step | What | How | Why |
+|------|------|-----|-----|
+| 1    | [Action item] | [Specific operation / script / prompt] | [Purpose / Mechanism] |
+| 2    | [Action item] | [Specific operation / script / prompt] | [Purpose / Mechanism] |
+
+**Common Issues**:
+*   [Problem] → [Immediate fix]
+
+### Step 3: [Step Name]
+
+| Step | What | How | Why |
+|------|------|-----|-----|
+| 1    | [Action item] | [Specific operation / script / prompt] | [Purpose / Mechanism] |
+
+**Common Issues**:
+*   [Problem] → [Immediate fix]
+
+## 🛠️ Deliverable Template
+> [Provide a copy-paste-ready table / checklist / prompt / code block here]
 
 ```markdown
-(在此处粘贴模板内容)
+(Paste template content here)
 ```
 
-## ✅ 验收清单 (Checklist)
-> 如何判断做好了？(Definition of Done)
+## ✅ Acceptance Checklist
+> How do you know it's done? (Definition of Done)
 
-*   [ ] [检查项1]
-*   [ ] [检查项2]
-*   [ ] [检查项3]
+*   [ ] [Check item 1]
+*   [ ] [Check item 2]
+*   [ ] [Check item 3]
 
-## ⚠️ 避坑指南 (Pitfalls & Anti-patterns)
-> 别人通常怎么搞砸的？
+## 🪞 Self-Assessment Checklist
+> Post-execution reflection: Did I execute well?
 
-*   **常见错误**：[描述] → **对策**：[描述]
-*   **常见错误**：[描述] → **对策**：[描述]
+*   [ ] **Process quality**: [e.g. Did I follow steps in order without skipping? Did each step's output meet expectations?]
+*   [ ] **Judgment quality**: [e.g. Were key decisions evidence-based? Did I avoid unfounded assumptions?]
+*   [ ] **Collaboration quality**: [e.g. If others were involved, was communication sufficient? Did I get the necessary inputs?]
 
-## 🧠 机制与杠杆 (Mechanism & Leverage)
-> 第一性原理视角：为什么这个方法有效？
+## ⚠️ Pitfalls & Anti-patterns
+> Global anti-pattern summary (per-step issues are embedded inline above)
 
-*   **隐含假设**：[比如：假设用户是理性的...]
-*   **核心机制**：[比如：利用了心理学上的互惠原理...]
-*   **20/80 杠杆**：哪 20% 的动作决定了 80% 的效果？
+*   **Common mistake**: [Description] → **Fix**: [Description]
+*   **Common mistake**: [Description] → **Fix**: [Description]
 
-## 🧪 下一步实验 (Next Step Experiment)
-> 本周内可以执行的最小可行性实验 (MVE)
+## 🧠 Mechanism & Leverage
+> First-principles perspective: Why does this method work?
 
-*   **实验目标**：验证 [某一步骤/效果]
-*   **行动**：[具体动作]
-*   **预期结果**：[数据/现象]
+*   **Hidden assumption**: [e.g. assumes the user is rational...]
+*   **Core mechanism**: [e.g. leverages the reciprocity principle from psychology...]
+*   **80/20 leverage**: Which 20% of actions drive 80% of results?
 
-## 🧠 Critical Review (压力测试)
-> 死对头/小白/第一性原理视角的攻击
+## 🧪 Next Step Experiment
+> A minimum viable experiment (MVE) you can run this week
 
-*   **Critic**: [质疑]
-*   **Response**: [回应/修正]
+*   **Goal**: Validate [a specific step / effect]
+*   **Action**: [Concrete action]
+*   **Expected result**: [Data / Observable outcome]
+
+## 🧠 Critical Review (Stress Test)
+> Attack from adversary / novice / first-principles perspectives
+
+*   **Critic**: [Challenge]
+*   **Response**: [Rebuttal / Revision]
